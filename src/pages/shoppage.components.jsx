@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
-import CollectionOverview from '../components/collection-overview';
+import CollectionOverview from '../components/collection/collection-overview';
 import CollectionPage from './collectionpage.component';
 
 const ShopPage = ({match}) => (

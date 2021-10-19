@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
-import { toggleCartDropDownAction } from "../redux/cart/cart-action";
-import { selectCartItemsCount } from "../redux/cart/cart-selector";
+import { toggleCartDropDownAction } from "../../redux/cart/cart-action";
+import { selectCartItemsCount } from "../../redux/cart/cart-selector";
 import { createStructuredSelector } from "reselect";
 
 const CartIcon = ({toggoleCartDropDown,itemsCount}) => (

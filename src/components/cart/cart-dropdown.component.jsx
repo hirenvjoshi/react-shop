@@ -3,9 +3,9 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { withRouter } from "react-router";
 import CartItem from "./cart-item.component";
-import CustomButton from "./custom-button.component";
-import { selectCartItems,selectCartTotal } from "../redux/cart/cart-selector";
-import { toggleCartDropDownAction } from "../redux/cart/cart-action";
+import CustomButton from "../form/custom-button.component";
+import { selectCartItems,selectCartTotal } from "../../redux/cart/cart-selector";
+import { toggleCartDropDownAction } from "../../redux/cart/cart-action";
 
 const CartDropDown = ({cartItems, total, history, dispatch}) => (
     <div id="header-cart" className="block block-cart">

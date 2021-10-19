@@ -2,8 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { selectCartItems, selectCartTotal } from '../redux/cart/cart-selector';
-import CheckoutItem from '../components/checkout-item.component';
-import StripeCheckoutButton from '../components/stripe-button.component';
+import CheckoutItem from '../components/checkout/checkout-item.component';
+import StripeCheckoutButton from '../components/stripe/stripe-button.component';
 
 const CheckoutPage = ({cartItems,total}) => (   
     <div className="collection-box collection-box-style1 section">
